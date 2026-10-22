@@ -1,0 +1,9 @@
+// Example module metadata only. Copy/adapt into a compatible Aniyomi extensions repository.
+ext {
+    extName = 'Movie Demo'
+    extClass = '.MovieSource'
+    extVersionCode = 1
+    isNsfw = false
+}
+
+apply from: "$rootDir/common.gradle"
